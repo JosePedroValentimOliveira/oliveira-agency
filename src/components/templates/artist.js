@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../layout"
-import SEO from "../Seo"
+import SEO from "../seo"
 import { Wrapper, Image } from "./templateStyles/artistStyles"
 
 const ArtistTemplate = ({

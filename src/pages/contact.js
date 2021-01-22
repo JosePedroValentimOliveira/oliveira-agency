@@ -2,9 +2,9 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { RiMailSendFill, RiPhoneLine, RiUserLocationLine } from "react-icons/ri"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 
-import SEO from "../components/Seo"
+import SEO from "../components/seo"
 
 import {Wrapper,Image,BottomEdgeDown,BottomEdgeUp} from '../pageStyles/pageStyles';
 import { COLORS } from "../constants";
