@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 
 import SEO from "../components/Seo"
 
-import {Wrapper,Image,BottomEdgeDown,BottomEdgeUp} from './pageStyles/pageStyles';
+import {Wrapper,Image,BottomEdgeDown,BottomEdgeUp} from '../pageStyles/pageStyles';
 import { COLORS } from "../constants";
 
 const ContactPage = () => {

@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 
 import SEO from "../components/Seo"
 
-import {Wrapper,Image,BottomEdgeDown,BottomEdgeUp} from './pageStyles/pageStyles';
+import {Wrapper,Image,BottomEdgeDown,BottomEdgeUp} from '../pageStyles/pageStyles';
 import { COLORS } from "../constants";
 
 
@@ -36,6 +36,7 @@ const AboutUsPage = () => {
     
     return (
         <Layout>
+            <SEO title="About-Us" />
            <Wrapper descriptionColor={COLORS.PRIMARY}>
                 <div className="banner">
                     <Image fluid={aboutUsPageHeaderPicture.imageFile.childImageSharp.fluid} alt={aboutUsPageHeaderPicture.altTest}/>
